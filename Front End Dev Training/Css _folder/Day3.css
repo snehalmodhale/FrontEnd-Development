@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box1{
+
+    height: 450px;
+    width: 450px;
+    border: groove 15px rgb(217, 255, 0);
+    border-radius: 0px 50px 0px 50px;
+    margin:  100px auto;
+
+    /* color name */
+    background-color: chocolate;
+    /* ******************************************** */
+
+    /* hexcode */
+    /* #0000000 */
+    /* color:rrggbb==>red red green green blueblue */
+    
+    background-color: #0000;
+    background-color: #0000ff;
+    background-color: #00ff00;
+    background-color: #ff0000;
+    background-color: #00ffff;
+
+
+/* *************************************** */
+
+/* rgb  */
+/* background-color: rgb(217, 255, 0);
+background-color: rgb(red, green, blue) */
+
+background-color:rgb(0, 0, 0);
+background-color:rgb(34, 249, 34);
+
+
+background-color: rgb(29, 187, 249);
+
+/* ****************************************** */
+/* alpha - apply transparancy effect5 */
+
+/* dark -light */
+
+background-color: rgba(255, 0, 120, 1);
+background-color: rgba(255, 0 ,0, 0 7);
+background-color: rgba(255,0,0,9);
+
+
+/* ********************************************* */
+
+/* hsl => h=hue s = saturation l=lightness  */
+
+/* h= hue= [ 0 -360=red], [120-220=green], [220-360=blue ] */
+
+/* s -saturation - greysh effect = 0-100% */
+
+/* l-lightness - apply black/white- 0-50%(black) , 50&=100(white) */
+
+/* background-color: hsl(hue, saturation, lightness); */
+
+background-color: hsl(360, 100%,50%);
+background-color: hsl(360, 80%,50%);
+background-color: hsl(360, 10%,50%);
+background-color: hsl(360, 10%,100%);
+background-color: hsl(360, 10%,0%);
+
+/* hsla */
+
+/* background-color: hsla(hue, saturation, lightness, alpha); */
+
+background-color: hsla(220, 80%, 50%, 0.8);
+
+background-color: #131921;
+}

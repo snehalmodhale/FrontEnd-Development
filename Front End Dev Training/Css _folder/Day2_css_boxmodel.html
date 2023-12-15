@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box_1{
+            height: 400px;
+            width: 400px;
+            background-color: tomato;
+
+            /* border -- apply border on to the specific element */
+
+            /* border - styl: solid/dashed/dotted/groove/double/inset;  */
+            border-style: groove;
+            border-color: rgb(85, 255, 0);
+            border-width: 10px;
+
+            /* TRBL= top right bottom left  */
+
+            /* ************************************************* */
+            /* shorthand property  */
+            /* border:style with color */
+
+            border:double rgb(76, 0, 255) 15px;
+
+            /* *********************************************************** */
+
+            /* Spwcific direction  */
+
+            border-top: solid navy 10px;
+            border-bottom: inset rgb(222, 6, 78) 10px;
+
+            border-left: groove 10px maroon;
+
+
+        /* ****************************************************************** */
+
+        /* Outline - give outline to outside to the border/outside the box */
+
+        /* outline-style-- solid/dashed/dotted/groove/double/inset; */
+/* 
+        outline-style: dashed;
+        outline-width: 10px;
+        outline-color: green; */
+
+        outline: solid rgb(6, 207, 207) 10px;
+        
+
+        margin-top: 30px;
+        margin-left: 30px;
+
+
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <!-- Box model 
+        Everything in a html is a box
+        box can be inline and block level
+
+        box contains -- padding,margin,border
+    
+    
+    -->
+
+    
+    <div class="box_1"></div>
+
+</body>
+</html>

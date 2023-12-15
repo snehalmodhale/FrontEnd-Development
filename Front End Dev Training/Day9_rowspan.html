@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="100%" cellpadding="10" cellspacing="0" style="table-layout: fixed;">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+
+    <!-- 5 partition -->
+
+    <!-- colspan = used to merge the colums
+        colspan = affect in current row -->
+    <tr>
+        <td colspan="2" rowspan="2" bgcolor="orange">1</td>
+        <td colspan="2">2</td>
+        <td colspan="2">3</td>
+        <td colspan="2">4</td>
+        <td colspan="2">5</td>
+    </tr>
+    <!-- rowspan = use to merge the rows 
+        affects on next row -->
+    <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td bgcolor="pink" rowspan="2">8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td colspan="5" bgcolor="green" rowspan="2">1</td>
+        <td colspan="5">2</td>
+    </tr>
+    <!-- tr -->
+    <tr>
+        <td colspan="5">2</td> <!-- td cover by above row-->
+    </tr>
+
+    <!-- tr = 1 partition -->
+    <tr>
+        <td colspan="10" bgcolor="magenta" rowspan="2">1-10</td>
+    </tr>
+
+    <tr> 
+        <!-- td =10 covered by above row
+           must be empty and must be create-->
+        
+    </tr>
+
+    </table>
+
+</body>
+</html>
+
+

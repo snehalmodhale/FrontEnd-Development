@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: rgb(24, 44, 216);
+            background-color: rgb(245, 141, 159);
+        }
+
+        /* Commenting
+        
+        */
+        /* div p{
+            color: rgb(30, 255, 0);
+        } */
+
+        /* child selector - select all html element which are children of specififed ele  */
+        /* only select the direct child */
+        /* indicate by > */
+
+        div>p{
+            color: red;
+        }
+
+ /* *********************************************** */
+        /* Genral sibling sel = [indicate by tild symbol(~)]==select all html ele which are sibling of specified element */
+
+        div~p{
+            color: rgb(0, 26, 255);
+            background-color: fuchsia;
+        }
+
+ /* ******************************************************* */
+
+        /* Adjucent sibling sel = [indicate by (+) symbol] = select html ele which are directly sibling of that specified ele */
+
+        div+p{
+            color: rgb(190, 28, 109);
+            background-color: rgb(229, 98, 98);
+        }
+
+    </style>
+</head>
+<body>
+<!-- Combinator Selector -->
+
+    <!-- Descendent selector = select  all element inside into spcifide element -->
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vel.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vel.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vel.</p>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, excepturi.</h1>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nobis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nobis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nobis?</p>
+
+
+
+</body>
+</html>

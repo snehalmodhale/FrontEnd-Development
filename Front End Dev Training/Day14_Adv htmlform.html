@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Input type="text"
+           <input type = "">
+           <input type = "" />
+           <input type = "">   </input>
+
+
+
+    Type =text,email,password,number,date,time,colorradio,checkbox,file,range,search,submit,reset,week,tel,url
+
+    select - one option
+    multiple option - check box
+
+    textarea
+
+    Attribute - action/method/enctype
+
+    readonly--only read
+    disabled
+
+
+    autofocuse = 
+
+    placeholder attribute = 
+
+    required - compalsary data fiil krava lagto
+
+    checked = 
+     unchecked =
+
+
+    -->
+
+    <center>
+    <h1> HTML FORM</h1>
+    <hr>
+
+    <form action="" method="get/post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="">EMP Name</label>
+            <input type="text" name="" id="" placeholder="enter your name" >
+
+            <br><br>
+
+            <!-- String sata -->
+
+            <label for="Username">Enter your Name :</label>
+            <input type="text" name="Username" id="Username" >
+
+            <br>
+            <br>
+
+            <!-- email -->
+            <label for="Username">Enter your Email :</label>
+            <input type="email" name="Useremail" id="Useremail" value="snehalmodhale@gmail"/>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="UserPass">Enter Your Password :</label>
+            <input type="password" name="Userpassword" id="Password">
+
+            <br><br>
+
+            <!-- Mo number -->
+            <!-- We can insert only no not a character expection e-exponent(For longer integer) -->
+
+            <label for="UserMobile"> Enter Your Mobile :</label>
+            <input type="number" name="UserMobile" id="UserMobile">
+
+            <br><br>
+
+            <label for="Userappoinment">Choose Your Date :</label>
+            <input type="Date" name="Userappoinment" id="Userappoinment">
+
+            <br><br>
+
+            <label for="Usertime">Choose Your Time :</label>
+            <input type="time" name="Usertime" id="Usertime">
+
+            <br><br>
+            <!-- Color -->
+<!-- ************************************************************************ -->
+
+            <label for="prodcolor">Choose Product Color :</label>
+            <input type="color" name="" id="">
+
+            <br><br>
+
+            <!-- Gender -->
+            <label for="">Gender</label>
+            <input type="radio" name="gender" id=""- value="Male">Male
+            <input type="radio" name="gender" id="" value="Female">Female
+            <input type="radio" name="gender" id="" value="Prefer  Not To Say">Prefer  Not To Say
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend> Other Details</legend>
+
+            <!-- Select  - Option - To Select One item -->
+            <!-- Education -->
+
+            <label for="UserEdu">Your Education</label>
+            <select name="UserEdu" id="UserEdu">
+                <option value="select">_Select_</option>
+                <option value="BCS/BCA">BCS/BCA</option>
+                <option value="MCS/MCA">MCS/MCA</option>
+                <option value="BE/B-Tech">BE/B-Tech</option>
+                <option value="ME/M-Tech">ME/M-Tech</option>
+                <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <!-- Option Group -->
+
+            <label for=""> Choose Your Technology</label>
+            <select name="" id="">
+                <optgroup label="Front End Technology">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+                <option value="PYTHON">PYTHON</option>
+                <option value="BOOTSTRAP">BOOTSTRAP</option>
+                <option value="REACTJS">REACTJS</option>
+            </optgroup>
+
+            <optgroup label="BackEnd Technology">
+                <option value="Nodejs">Nodejs</option>
+                <option value="Django">Django</option>
+               
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <!-- Multiple option -checkbox -->
+
+        <label for="">Choose Your Skill</label>
+        <input type="checkbox" name="" id="">HTML 
+        <input type="checkbox" name="" id="">CSS
+        <input type="checkbox" name="" id="">JAVASCRIPT
+        <input type="checkbox" name="" id="">REACTJS
+        <input type="checkbox" name="" id="">AWS
+
+        <br><br>
+        <!-- Document -->
+        <label for="">Upload Your Document</label>
+        <input type="file" name="Userdoc" id="Userdoc">
+
+        <!-- Multiple file -->
+        <input type="file" name="" id="" multiple>
+
+        <br><br>
+        <!-- Address
+        
+        long input field  = textarea tag-->
+        <label for="">Your Messge/Address </label>
+        <textarea name="" id="" rows="5" style="width: 100%;"></textarea>
+
+        <br><br>
+
+        <!-- Search box -->
+
+        <label for="">Search Here</label>
+        <input type="search" name="" id="">
+
+        <br><br>
+
+        <!-- Hidden data -->
+
+        <label for="">Hidden data</label>
+        <input type="hidden" name="" id="" value="1234">
+        <br><br>
+
+        <label for="">Your Range</label>
+        <input type="range" name="" id="" min="100" max="500">
+
+        <br>
+        <br>
+        <hr><br>
+
+<!-- ************************************************************* -->
+        <!-- Form submit -->
+
+        <button type="button">Normal Button</button>
+        <button type="submit">Submit Your Form </button>
+        <input type="submit" name="" id="">
+
+        <input type="submit" name="" id="" value="Save Your Form">
+
+        <input type="reset" name="" id="">
+
+
+
+
+<!-- **************************************************** -->
+
+        </fieldset>
+    </form>
+
+</center>
+
+<!-- 
+
+    file:///C:/Users/snehal/Desktop/front%20end%20dev/Day14_Adv%20htmlform.html?Username=asf
+    &Useremail=fdnfeo%40gmail.com
+    &Userpassword=1234
+    &UserMobile=8798659084
+    &Userappoinment=
+    &Usertime=
+    &gender=on
+    &UserEdu=select
+    &Userdoc=
+ -->
+
+
+</body>
+</html>

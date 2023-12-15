@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            height: 70px;
+            width: 50%;
+            background-color: rgb(20, 11, 184);
+            float: left;
+        }
+        .box2{
+            height: 70px;
+            width: 50%;
+            background-color: chartreuse;
+            float: left;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <!-- nested tag  -->
+    <div class="box1">
+        <div style="height: 100%;width:50%; background-color: rgb(255, 0, 208);float: left;"></div>
+        <div style="height: 100%;width:50%; background-color: rgb(0, 208, 255);float: left;"></div>
+    </div>
+
+    <div class="box2"></div>
+
+    <!-- 3 partition -->
+
+        <div style="height: 60px;width: 33.33%; float: left; background-color: rgb(17, 0, 100);"></div>
+        <div style="height: 60px;width: 33.33%; float: left; background-color: rgb(100, 0, 13);"></div>
+
+
+        <div style="height: 60px;width: 33.33%; float: left; background-color: rgb(11, 183, 231);">
+            <!-- height 2 partition 
+                 width 2 partition -->
+
+                 <div style="height: 50%; width: 50%;float: left; background-color: rgb(255, 0, 0);">
+                    
+                    <div style="height: 100%; width: 50%; float: left;background-color: blueviolet;"></div>
+                    <div style="height: 100%; width: 50%; float: left;background-color: rgb(9, 231, 234);"></div>
+                
+                </div>
+
+                 <div style="height: 50%; width: 50%;float: left; background-color: rgb(247, 0, 255);"></div>
+                 <div style="height: 50%; width: 50%;float: left; background-color: rgb(255, 247, 0);"></div>
+        
+        
+        </div>
+</body>
+</html>
